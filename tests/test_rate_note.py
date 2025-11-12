@@ -11,7 +11,7 @@ from src.rate_note import rate_note
         (10, 'acceptable'),
         (11, 'acceptable'),
           (12, 'good'),
-        (13, 'good'),
+         (13, 'good'),
     ]
 )
 def test_rate_note_returns_unsuccessful(note, expected):
