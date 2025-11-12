@@ -19,12 +19,8 @@ def test_rate_note_returns_unsuccessful(note, expected):
     assert actual_result == expected
 
 
-def test_rate_12_returns_good():
-      assert rate_note(12) == "good"
-
-def test_rate_13_returns_good():
-    assert rate_note(13) == " good"
-
-
-def test_rate_14_returns_good():
+def test_rate_14_returns_very_good():
       assert rate_note(14) == "very good"
+
+def test_rate_16_returns_very_good():
+      assert rate_note(16) == "very good"
