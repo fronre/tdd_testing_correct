@@ -15,14 +15,18 @@ from src.rate_note import rate_note
         (14, 'very good'),
         (15, 'very good'),
         (16, 'very good'),
+        (17, 'excellent'),
+        (18, 'excellent'),
+        (19, 'excellent'),
+        (20, 'excellent'),
+        (21, 'Impossible note value'),
+        (22, 'Impossible note value'),
+        (-1, 'Impossible note value'),
+
     ]
 )
 def test_rate_note_returns_unsuccessful(note, expected):
     actual_result = rate_note(note)
     assert actual_result == expected
 
-def test_rate_17_returns_excellent():
-   assert rate_note(17) == 'excellent'
 
-def test_rate_18_returns_excellent():
-    assert rate_note(18) == 'excellent'
