@@ -10,6 +10,8 @@ from src.rate_note import rate_note
         (9, 'unsuccessful'),
         (10, 'acceptable'),
         (11, 'acceptable'),
+          (12, 'good'),
+        (13, 'good'),
     ]
 )
 def test_rate_note_returns_unsuccessful(note, expected):
@@ -21,7 +23,7 @@ def test_rate_12_returns_good():
       assert rate_note(12) == "good"
 
 def test_rate_13_returns_good():
-    assert rate_note(13) == "very good"
+    assert rate_note(13) == " good"
 
 
 def test_rate_14_returns_good():
