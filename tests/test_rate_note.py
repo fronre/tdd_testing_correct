@@ -21,4 +21,8 @@ def test_rate_12_returns_good():
       assert rate_note(12) == "good"
 
 def test_rate_13_returns_good():
+    assert rate_note(13) == "very good"
+
+
+def test_rate_14_returns_good():
       assert rate_note(14) == "very good"
