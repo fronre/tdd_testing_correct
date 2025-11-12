@@ -1,2 +1,3 @@
-def rate_note(param):
-    pass
+def rate_note(note: int) -> str:
+   return "unsuccessful"
+
