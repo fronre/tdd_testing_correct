@@ -21,4 +21,6 @@ def test_rate_note_returns_unsuccessful(note, expected):
     actual_result = rate_note(note)
     assert actual_result == expected
 
+def test_rate_17_returns_excellent():
+   assert rate_note(17) == 'excellent'
 
