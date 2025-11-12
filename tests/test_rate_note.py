@@ -1,5 +1,7 @@
 from src.rate_note import rate_note
 
+def  test_rate_7_returns_unsuccessful():
+    assert rate_note(7) == "unsuccessful"
 
 def test_rate_8_returns_unsuccessful():
      assert rate_note(8) == "unsuccessful"
